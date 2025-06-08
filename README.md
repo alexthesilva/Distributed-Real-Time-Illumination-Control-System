@@ -142,16 +142,3 @@ Scripts emit PNGs directly inside the `plots/` folder and were used for the figu
 | Energy saved vs. always-on | **43 %** | measured over 8 h day/night cycle |
 
 Energy savings improved a further **7 %** with the distributed optimiser compared to independent PID control.
-
----
-
-## Future work
-- Port firmware to **RP2040-C SDK** for deterministic bare-metal scheduling.
-- Replace linear approximations with a photometric Kalman filter.
-- Integrate a **web dashboard** via a WiFi co-processor (ESP32-S3).
-
----
-
-## License
-All original source code in this repository is released under the **MIT License**.  
-The course guide and any excerpts remain © their respective authors.
